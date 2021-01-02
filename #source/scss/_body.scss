@@ -1,0 +1,37 @@
+body {
+   font-family: "Roboto", sans-serif;
+   background: var(--primary-bg-white);
+   color: var(--primary-fc-middle-black);
+}
+
+/*===Grid Style===*/
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+/*===Visually hidden h2===*/
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+
+   white-space: nowrap;
+   clip-path: inset(100%);
+   clip: rect(0 0 0 0);
+   overflow: hidden;
+}
+/*===LOGO Main Style===*/
+.logo {
+   font-family: "Raleway", sans-serif;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.2;
+   letter-spacing: 0.03em;
+   &__accent {
+      color: var(--primary-logo-accent);
+   }
+}

@@ -1,0 +1,45 @@
+.hero {
+   padding: 200px 0;
+   display: flex;
+   height: 600px;
+   background-color: var(--primary-bg-hero);
+   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero-bg.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+
+   &__inner {
+      width: 100%;
+      max-width: 696px;
+      margin: 0 auto;
+      text-align: center;
+   }
+   &__text {
+      margin-bottom: 30px;
+      font-weight: 900;
+      font-size: 44px;
+      line-height: 1.4;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--color-hero-text);
+   }
+}
+.modal-btn {
+   padding: 10px 32px;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.9;
+   letter-spacing: 0.06em;
+   border-radius: 4px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   color: var(--fc-hero-button);
+   background: var(--bc-hero-button);
+   &:active {
+      position: relative;
+      top: 2px;
+      box-shadow: none;
+   }
+}
+.modal-btn--inner {
+   padding: 10px 56px;
+}
